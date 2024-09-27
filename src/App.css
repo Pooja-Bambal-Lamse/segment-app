@@ -1,0 +1,57 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 15px 30px; /* Increase button size */
+  font-size: 18px; /* Increase font size */
+  background-color: #808080; /* Grey button background */
+  color: white; /* White button text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #696969; /* Slightly darker grey on hover */
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+}
+
+.blue-box {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: lightblue;
+  border-radius: 5px;
+}
+
+select, input {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 8px;
+}
+.segment-input {
+  width: 95%;
+  padding: 8px;
+}
+
